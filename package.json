@@ -4,8 +4,7 @@
     "dependencies": {
         "@devcycle/nodejs-server-sdk": "^1.35.0",
         "dotenv": "^16.3.1",
-        "express": "^4.18.2",
-        "supertest": "^6.3.3"
+        "express": "^4.18.2"
     },
     "scripts": {
         "start": "open http://localhost:5002 && nodemon src/server.js",
@@ -13,6 +12,7 @@
     },
     "devDependencies": {
         "jest": "^29.7.0",
-        "nodemon": "^3.0.2"
+        "nodemon": "^3.0.2",
+        "supertest": "^6.3.3"
     }
 }
